@@ -3,8 +3,7 @@ import readlineSync from 'readline-sync';
 import colors from 'colors';
 
 async function main() {
-    console.log(colors.bold.green('Welcome to chatbot program!'));
-    console.log(colors.bold.green('You can start chatting with the bot.'));
+    console.log(colors.bold.green('Type anything to start chatting with the bot'));
     const chatHistory = []; // store conversation History
 
     while(true)
